@@ -1,0 +1,85 @@
+//if
+
+int age = 18;
+if (age >= 18) {
+    System.out.println("You are an adult.");
+}
+
+//if else
+
+int age = 16;
+if (age >= 18) {
+    System.out.println("You are an adult.");
+} else {
+    System.out.println("You are a minor.");
+}
+
+
+//elif
+
+int score = 75;
+if (score >= 90) {
+    System.out.println("Grade A");
+} else if (score >= 80) {
+    System.out.println("Grade B");
+} else if (score >= 70) {
+    System.out.println("Grade C");
+} else {
+    System.out.println("Grade F");
+}
+
+
+//switch
+
+int day = 3;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    default:
+        System.out.println("Invalid day");
+}
+
+//for loop
+
+for (int i = 0; i < 5; i++) {
+    System.out.println("i = " + i);
+}
+
+//while loop
+int count = 0;
+while (count < 5) {
+    System.out.println("count = " + count);
+    count++;
+}
+
+//do while loop
+
+count = 0
+count = 1
+count = 2
+count = 3
+count = 4
+
+  //break statement
+
+  for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        break;  // Exit the loop when i is 5
+    }
+    System.out.println(i);
+}
+
+//continoue statemnt
+for (int i = 0; i < 5; i++) {
+    if (i == 2) {
+        continue;  // Skip when i is 2
+    }
+    System.out.println(i);
+}
