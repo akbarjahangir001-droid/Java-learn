@@ -1,0 +1,66 @@
+//create a string
+
+String name = "Alice";
+System.out.println(name);  // Output: Alice
+
+//concatenation of 2 strings
+
+String firstName = "John";
+String lastName = "Doe";
+String fullName = firstName + " " + lastName;
+System.out.println(fullName);  // Output: John Doe
+
+
+//length-number of characters in a string
+
+String text = "Java";
+int length = text.length();
+System.out.println(length);  // Output: 4
+
+//get char at specific position
+String word = "Hello";
+char ch = word.charAt(1);
+System.out.println(ch);  // Output: e
+
+//to uppercase
+
+String message = "Hello World";
+System.out.println(message.toUpperCase());  // Output: HELLO WORLD
+System.out.println(message.toLowerCase());  // Output: hello world
+
+//substring
+
+String sentence = "Programming";
+String part = sentence.substring(0, 6);
+System.out.println(part);  // Output: Progra
+
+//equals
+
+String s1 = "Java";
+String s2 = "java";
+
+System.out.println(s1.equals(s2));        // Output: false (case-sensitive)
+System.out.println(s1.equalsIgnoreCase(s2));  // Output: true (case-insensitive)
+
+//trim
+String spaced = "   Hello   ";
+System.out.println(spaced.trim());  // Output: Hello
+
+//replace
+String original = "hello";
+String replaced = original.replace('l', 'p');
+System.out.println(replaced);  // Output: heppo
+
+//string immutability
+String s = "hello";
+s.toUpperCase();
+System.out.println(s);  // Output: hello  (original string unchanged)
+
+//to update
+s = s.toUpperCase();
+System.out.println(s);  // Output: HELLO
+
+//mutable string
+StringBuilder sb = new StringBuilder("Hello");
+sb.append(" World");
+System.out.println(sb.toString());  // Output: Hello World
