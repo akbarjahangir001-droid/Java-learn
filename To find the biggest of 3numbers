@@ -1,0 +1,14 @@
+public class BiggestNumber {
+    public static void main(String[] args) {
+        int a = 2378, b = 675, c = 8907;
+        int biggest;
+        if (a >= b && a >= c) {
+            biggest = a;
+        } else if (b >= a && b >= c) {
+            biggest = b;
+        } else {
+            biggest = c;
+        }
+        System.out.println("The biggest number is: " + biggest);
+    }
+}
