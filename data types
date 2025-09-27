@@ -1,0 +1,35 @@
+//int
+int age = 30;
+int temperature = -10;
+System.out.println(age);           // Output: 30
+System.out.println(temperature);   // Output: -10
+
+  //double
+
+  double price = 19.99;
+double pi = 3.14159;
+System.out.println(price);    // Output: 19.99
+System.out.println(pi);       // Output: 3.14159
+
+
+  //char
+
+  char grade = 'A';
+char symbol = '#';
+System.out.println(grade);    // Output: A
+System.out.println(symbol);   // Output: #
+
+
+  //boolean
+
+  boolean isJavaFun = true;
+boolean isRaining = false;
+System.out.println(isJavaFun);  // Output: true
+System.out.println(isRaining);  // Output: false
+
+  //string
+
+  String name = "Alice";
+String greeting = "Hello, World!";
+System.out.println(name);       // Output: Alice
+System.out.println(greeting);   // Output: Hello, World!
