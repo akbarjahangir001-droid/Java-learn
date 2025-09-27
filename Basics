@@ -7,38 +7,35 @@ public class HelloWorld {
 
 
 
-//java next level 1 basic programs
+//constants and variables
 
-public class NextLevel {
-    
-    // Method to check if a number is even or odd
-    public static String checkEvenOdd(int num) {
-        if (num % 2 == 0) {
-            return "Even";
-        } else {
-            return "Odd";
-        }
-    }
+int age = 25;
+double price = 19.99;
+char grade = 'A';
+boolean isJavaFun = true;
 
-    public static void main(String[] args) {
-        // Variables
-        int number = 10;
-        String result;
+//control statements
 
-        // Using method and conditionals
-        result = checkEvenOdd(number);
-        System.out.println(number + " is " + result);
+if (age >= 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Minor");
+}
 
-        // Loop example - print numbers from 1 to 5
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("Count: " + i);
-        }
+//while loop
 
-        // While loop example
-        int countdown = 3;
-        while (countdown > 0) {
-            System.out.println("Countdown: " + countdown);
-            countdown--;
-        }
-    }
+int count = 0;
+while (count < 5) {
+    System.out.println(count);
+    count++;
+}
+
+//methods
+
+public static void greet() {
+    System.out.println("Hello!");
+}
+
+public static int add(int a, int b) {
+    return a + b;
 }
